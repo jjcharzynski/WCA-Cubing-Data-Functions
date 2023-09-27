@@ -55,4 +55,32 @@ Before analyzing data, you need to download the latest WCA competition data. You
 createWCAdatabase()
 ```
 
-bob
+This function will download the data, extract it, and create a local SQLite database with the information.
+
+### Analyzing Personal Progress
+You can analyze the personal progress of a specific person and event using the calculatepersonalprogressbyevent() function and visualize it with the plotpersonalprogressbyevent() function.
+
+```python
+calculatepersonalprogressbyevent(personId, eventId)
+plotpersonalprogressbyevent(personId, eventId)
+```
+
+### Comparing Cubers
+To compare the progress of multiple cubers for a specific event, use the comparecubersbyevent() function.
+
+```python
+comparecubersbyevent(eventId, personId1, personId2, ...)
+```
+
+Cuber vs. Everybody
+Compare a specific cuber's progress with others for a given event using the cubervseverybody() function.
+
+```python
+cubervseverybody(eventId, personId, personId1, personId2, ...)
+```
+
+## Contributing
+If you would like to contribute to this project, feel free to open issues or submit pull requests on the GitHub repository.
+
+## License
+This code is licensed under the MIT License. See the LICENSE file for details.
