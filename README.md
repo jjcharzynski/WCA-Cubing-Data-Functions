@@ -2,7 +2,7 @@
 
 ## Allowed Use
 
-The code uses WCA cubing data. The WCA allows this information to be re-published, in whole or in part, as long as users are clearly notified of the following:
+The code uses World Cubing Association competition results data. The WCA allows this information to be re-published, in whole or in part, as long as users are clearly notified of the following:
 
 > This information is based on competition results owned and maintained by the
 > World Cube Association, published at [https://worldcubeassociation.org/results](https://worldcubeassociation.org/results).
