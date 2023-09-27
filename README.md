@@ -72,7 +72,7 @@ To compare the progress of multiple cubers for a specific event, use the compare
 comparecubersbyevent(eventId, personId1, personId2, ...)
 ```
 
-Cuber vs. Everybody
+### Cuber vs. Everybody
 Compare a specific cuber's progress with others for a given event using the cubervseverybody() function.
 
 ```python
