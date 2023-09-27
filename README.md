@@ -1,14 +1,10 @@
-## Allowed Use
-The code uses WCA cubing data. The WCA allows this information to be re-published, in whole or in part, as long
-as users are clearly notified of the following:
 
-> This information is based on competition results owned and maintained by the
-> World Cube Assocation, published at https://worldcubeassociation.org/results
 
 # WCA Database Downloader and Analyzer
 
 ## Table of Contents
 - [Description](#description)
+- [Allowed Use](#allowed use)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -22,6 +18,13 @@ as users are clearly notified of the following:
 ## Description
 
 This Python script allows you to download and analyze competition data from the World Cube Association (WCA) database. It can create a local SQLite database with WCA data, retrieve and process competition data for specific persons and events, calculate and plot personal progress, and compare progress between cubers.
+
+## Allowed Use
+The code uses WCA cubing data. The WCA allows this information to be re-published, in whole or in part, as long
+as users are clearly notified of the following:
+
+> This information is based on competition results owned and maintained by the
+> World Cube Assocation, published at https://worldcubeassociation.org/results
 
 ## Requirements
 
@@ -55,4 +58,3 @@ Before analyzing data, you need to download the latest WCA competition data. You
 createWCAdatabase()
 
 
-Feel free to customize the README file further to include any additional information or instructions specific to your use case.
